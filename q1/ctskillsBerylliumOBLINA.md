@@ -112,7 +112,7 @@ Management     |address overcrowding|
                |                    |occur.
 
 
-## Step 4: ALgorithmic Solution
+## Step 4: Algorithmic Solution
 
 ##Selected Sub-Problem: Lack of Real-Time Tracking of Items
 
