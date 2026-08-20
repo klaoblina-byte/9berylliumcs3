@@ -17,11 +17,12 @@ structure that is easy to maintain and expand as the store grows.
 PSEUDOCODE:
 
 class Product:
+
     def __init__(self, name, price, stock):
         self.__name = name         # Private property
         self.__price = price       # Private property
         self.__stock = stock       # Private property
-
+    
     def sell(self, quantity):
         if quantity <= self.__stock:
             self.__stock -= quantity
@@ -69,6 +70,7 @@ introduced, developers only need to program the differences rather than the enti
 scratch
 
 SIMPLE DIAGRAM:
+
             ____________________________
             |     Product (Base)       |--> Shares: name, price, get_details()
             ----------------------------
@@ -108,7 +110,6 @@ END CLASS
 // Polymorphism in action
 START
     DECLARE inventory = [ NEW Product(), NEW PerishableProduct() ]
-
     FOR EACH item IN inventory DO
         CALL item.display() // Automatically runs the correct version
     END FOR
