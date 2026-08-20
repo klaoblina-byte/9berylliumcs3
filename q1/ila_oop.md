@@ -94,26 +94,27 @@ uniformly without complex conditional statements to guess each product's subcate
 
 PSEUDOCODE:
 
-// Define distinct object behaviors
-CLASS Product
-    METHOD display()
-        PRINT "Standard Sari-Sari Item"
-    END METHOD
-END CLASS
+    // Define distinct object behaviors
+    CLASS Product
+        METHOD display()
+            PRINT "Standard Sari-Sari Item"
+        END METHOD
+    END CLASS
 
-CLASS PerishableProduct INHERITS Product
-    METHOD display()
-        PRINT "Perishable Item: Check expiration date!"
-    END METHOD
-END CLASS
+    CLASS PerishableProduct INHERITS Product
+         METHOD display()
+             PRINT "Perishable Item: Check expiration date!"
+         END METHOD
+    END CLASS
 
-// Polymorphism in action
-START
-    DECLARE inventory = [ NEW Product(), NEW PerishableProduct() ]
-    FOR EACH item IN inventory DO
-        CALL item.display() // Automatically runs the correct version
-    END FOR
-END
+    // Polymorphism in action
+    START
+        DECLARE inventory = [ NEW Product(), NEW PerishableProduct() ]
+   
+        FOR EACH item IN inventory DO
+            CALL item.display() // Automatically runs the correct version
+        END FOR
+    END
 
 ## Reflection
 
