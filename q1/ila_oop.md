@@ -82,7 +82,13 @@ SIMPLE DIAGRAM:
 
 
 ### 4. Polymorphism
-Polymorphism can be used in the sari-sari store system to execute a single action, such as checking inventory or calculating total costs, differently depending on the type of product being processed. This mechanism relies on a shared method that is defined in a parent Product class and overridden by child classes. When the system loops through the entire stock, an instruction triggers expiration warning and standard listings for canned goods. This improves program organization because the inventory management interface interacts with all items uniformly without complex conditional statements to guess each product's subcategory.
+Polymorphism can be used in the sari-sari store system to execute a single action, such as
+checking inventory or calculating total costs, differently depending on the type of product
+being processed. This mechanism relies on a shared method that is defined in a parent Product
+class and overridden by child classes. When the system loops through the entire stock, an
+instruction triggers expiration warning and standard listings for canned goods. This improves
+program organization because the inventory management interface interacts with all items
+uniformly without complex conditional statements to guess each product's subcategory.
 
 PSEUDOCODE:
 
@@ -111,7 +117,8 @@ END
 ## Reflection
 
 Out of the four pillars of OOP, I believe that encapsulation is the one which will have the
-most helpful effect on the enhancement of the sari-sari store inventory management system because with the help of encapsulation, the sari-sari store inventory management system will
+most helpful effect on the enhancement of the sari-sari store inventory management system
+because with the help of encapsulation, the sari-sari store inventory management system will
 be able to organize the relevant product information in its objects, including the product
 name, price, quantity, and expiration date. Also, with the help of this pillar, access to the
 data can be controlled by certain methods and rules; for instance, instead of being changed by
