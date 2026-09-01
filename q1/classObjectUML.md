@@ -22,7 +22,7 @@
 | start() | Starts the song |
 
 ## Class Diagram
-![Class Diagram](q1/classDiagram.png)
+[Class Diagram](q1/classDiagram.png)
 
 ## Design Explanation
 
