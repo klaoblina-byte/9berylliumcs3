@@ -22,7 +22,7 @@
 | start() | Starts the song |
 
 ## Class Diagram
-![Class Diagram](q1/images/classDiagram.png)
+![Class Diagram](https://github.com/klaoblina-byte/9berylliumcs3/blob/63a6459204070c4721576b12a21b47c676c31558/q1/images/classDiagram.png)
 
 ## Design Explanation
 
