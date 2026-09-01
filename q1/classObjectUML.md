@@ -4,7 +4,7 @@
 
 ## Properties
 | Property | Data Type | Description |
-|---|---|---|
+|---|---|---| 
 | Title | string | Title of the Song |
 | Duration | int | How long is the duration of the song |
 | Song Artist | string | The one who performs and the person who created/composed the song |
