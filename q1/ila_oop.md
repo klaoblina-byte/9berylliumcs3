@@ -69,7 +69,7 @@ introduced, developers only need to program the differences rather than the enti
 scratch
 
 SIMPLE DIAGRAM:
-            ____________________________
+            ___________________________
             |     Product (Base)       |--> Shares: name, price, get_details()
             ----------------------------
                           ^
