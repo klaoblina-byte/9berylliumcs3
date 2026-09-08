@@ -28,3 +28,6 @@ Changes from my previous design:
 
 ## Step 4 - Step 6
 
+[classImplementation.py]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classImplementation.py}
+
+## Step 7
