@@ -1,6 +1,9 @@
-# OOPAct Part II
+# Class Attributes and Methods
 
-## Step 1
+## Previous Design
+Link to my previous activity:
+[classObjectUML.md]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classObjectUML.md}
+
 ## Design Revision
 
 Changes from my previous design:
@@ -11,7 +14,7 @@ Changes from my previous design:
 - Added the attribute Name of Playlist
 - Added the method addSong()
 
-## Step 2
+## Visibility Decisions
 
 | Attribute | Data Type | Visibility | Why Public/Private? |
 |---|---|---|---|
@@ -21,15 +24,17 @@ Changes from my previous design:
 | Total Amount of Listening Time | int | Private | This measures individual user activity and personal usage habits. Because it tracks private behavior on an account, it is sensitive personal data that shouldn't be publicly exposed. | 
 | Name of Playlist | String | Private | Users can create and name playlists with privacy and without the fear of getting judged. |
 
-## Step 3
+### Updated UML Class Diagram
+[Class Diagram]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classDiagram.png}
 
-### MODIFIED UML DIAGRAM
-[Modified UML Diagram]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classDiagram.png}
+## Python Implementation
 
-## Step 4 - Step 6
+[View Python Source]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classImplementation.py}
 
-[classImplementation.py]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classImplementation.py}
+## Test Run
 
-## Step 7 - Step 8
+[Test Run]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/imagesclassTestRun.png.png}
 
-[images/classTestRun.png]{
+## Object Diagram
+
+
