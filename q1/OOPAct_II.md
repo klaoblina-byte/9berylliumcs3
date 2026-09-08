@@ -2,7 +2,7 @@
 
 ## Previous Design
 Link to my previous activity:
-[classObjectUML.md]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classObjectUML.md}
+[classObjectUML.md](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classObjectUML.md)
 
 ## Design Revision
 
@@ -13,6 +13,7 @@ Changes from my previous design:
 - Removed Top Song, Top Artist, and Favorite Genre attributes
 - Added the attribute Name of Playlist
 - Added the method addSong()
+- Removed skip() method
 
 ## Visibility Decisions
 
@@ -25,15 +26,15 @@ Changes from my previous design:
 | Name of Playlist | String | Private | Users can create and name playlists with privacy and without the fear of getting judged. |
 
 ### Updated UML Class Diagram
-[Class Diagram]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classDiagram.png}
+[Class Diagram](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classDiagram.png)
 
 ## Python Implementation
 
-[View Python Source]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classImplementation.py}
+[View Python Source](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classImplementation.py)
 
 ## Test Run
 
-[Test Run]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/imagesclassTestRun.png.png}
+[Test Run](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/imagesclassTestRun.png.png)
 
 ## Object Diagram
 
