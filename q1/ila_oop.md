@@ -17,11 +17,12 @@ structure that is easy to maintain and expand as the store grows.
 PSEUDOCODE:
 
 class Product:
+
     def __init__(self, name, price, stock):
         self.__name = name         # Private property
         self.__price = price       # Private property
         self.__stock = stock       # Private property
-
+    
     def sell(self, quantity):
         if quantity <= self.__stock:
             self.__stock -= quantity
@@ -69,7 +70,7 @@ introduced, developers only need to program the differences rather than the enti
 scratch
 
 SIMPLE DIAGRAM:
-            ___________________________
+            ____________________________
             |     Product (Base)       |--> Shares: name, price, get_details()
             ----------------------------
                           ^
@@ -92,27 +93,27 @@ uniformly without complex conditional statements to guess each product's subcate
 
 PSEUDOCODE:
 
-// Define distinct object behaviors
-CLASS Product
-    METHOD display()
-        PRINT "Standard Sari-Sari Item"
-    END METHOD
-END CLASS
+    // Define distinct object behaviors
+    CLASS Product
+        METHOD display()
+            PRINT "Standard Sari-Sari Item"
+        END METHOD
+    END CLASS
 
-CLASS PerishableProduct INHERITS Product
-    METHOD display()
-        PRINT "Perishable Item: Check expiration date!"
-    END METHOD
-END CLASS
+    CLASS PerishableProduct INHERITS Product
+         METHOD display()
+             PRINT "Perishable Item: Check expiration date!"
+         END METHOD
+    END CLASS
 
-// Polymorphism in action
-START
-    DECLARE inventory = [ NEW Product(), NEW PerishableProduct() ]
-
-    FOR EACH item IN inventory DO
-        CALL item.display() // Automatically runs the correct version
-    END FOR
-END
+    // Polymorphism in action
+    START
+        DECLARE inventory = [ NEW Product(), NEW PerishableProduct() ]
+   
+        FOR EACH item IN inventory DO
+            CALL item.display() // Automatically runs the correct version
+        END FOR
+    END
 
 ## Reflection
 
