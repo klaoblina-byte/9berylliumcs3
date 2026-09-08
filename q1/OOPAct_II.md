@@ -30,4 +30,6 @@ Changes from my previous design:
 
 [classImplementation.py]{https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classImplementation.py}
 
-## Step 7
+## Step 7 - Step 8
+
+[images/classTestRun.png]{
