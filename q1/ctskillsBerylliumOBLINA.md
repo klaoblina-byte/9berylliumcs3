@@ -25,91 +25,13 @@ Please list possible sub-problems:
 ## Step 3: Define Computational Thinking Approaches
 For each sub-problem, apply CT skills:
 
-    | Sub-Problem   |    CT Skill     |      Example Solution
-
-    Delayed         |   Abstraction   |Create a physical or digital
-    Decision-Making |The abstraction  |menu near the counter and 
-    at the Counter  |skill helps      |along the outer part of where
-                     prevent delayed  |the queue will be. The menu
-                     decision-making  |should be composed of the 
-                     at the counter by|items correctly categorized, 
-                     focusing only on |its prices, and visual icons.
-                     the most         |Irrelevant details, such as 
-                     important        |ingredients, should be 
-                     information      |avoided as it would lead to 
-                     needed to make a |longer decision-making. 
-                     decision. It     |Therefore, students can make 
-                     reduces confusion|rapid choices before reaching
-                     and mental       |the counter.
-                     overload,        |
-                     allowing staff to|
-                     respond to       |
-                     customers quickly|
-                     and confidently  |
-
-
-    Slow Manual    |Algorithm Design  |Build a sequential algorithm
-    Computation of | Algorithm Design |for a simple checkout
-    Payment During |helps prevent slow|interface for the cashiers.
-    Checkout       |manual computation|The algorithm is simply:
-                   |of payment during |
-                   |checkout by       |1. Choose selected items
-                   |providing         |2. Calculate sum of items
-                   |a clear, step-by- |3. Input cash received
-                   |step process for  |4. Calculate change- Cash-Sum
-                   |calculating the   |5. Display output
-                   |total, discounts, |6. Print Reciept
-                   |and change. This  |
-                   |makes computations|
-                   |faster and more   |
-                   |accurate, reducing|
-                   |errors and        |
-                  |shortening customer|
-                   |waiting time.     |
-
-
-    Lack of Real-  | Pattern Recognition |Track historical data to
-    Time Tracking  |                     |recognize patterns of
-    of Items       |Pattern Recognition  |which items sell out the
-                   |helps address the    |fastest during the first
-                   |lack of real-time    |half hour of the lunch 
-                   |movement, such as    |period. Using these 
-                   |frequently sold or   |patterns, establish a
-                   |low-stock items. This|digital notification to
-                   |allows staff to      |alarm staff to restock or
-                   |monitor item         |take off a specific item
-                   |availability more    |in the menu. Additionally,
-                   |efficiently and      |establish an automated
-                   |quickly recognize    |digital rule that if the
-                   |when stock needs to  |stock level is less than
-                   |be updated or        |5 units, send an alert to
-                   |replenished          |kitchen staff to prepare 
-                   |                     |more.
-
-
-    Overcrowding   |   Decomposition    |Break the large queues and
-    and Poor Queue |Decomposition helps |overcrowding problem by:
-    Management     |address overcrowding|
-                   |and poor queue      |1. Making sure that there
-                   |management by       |are at least three cashiers
-                   |breaking the problem|in every counter, ensuring
-                   |into smaller parts, |that the queues will be
-                   |such as identifying |broken down into shorter
-                   |customer flow,      |ones.
-                   |waiting areas, and  |
-                   |service times. This |2.Another three lanes for
-                   |makes it easier to  |picking up the food and
-                   |find the cause of   |at least 2 staff are
-                   |overcrowding and    |assigned to each lane.
-                   |organize the queue  |
-                   |more efficiently.   |3. The menus are placed
-                   |                    |along the queues so    
-                   |                    |students can pick while
-                   |                    |they are in line. The same
-                   |                    |menus can also be placed in
-                   |                    |another corner, big enough
-                   |                    |so that overcrowding won't
-                   |                    |occur.
+| Sub-Problem | CT Skill | Example Solution |
+|---|---|---|
+|---|---|---|
+| Delayed Decision-Making at the Counter | Abstraction: The abstraction skill helps prevent delayed decision-making at the counter by focusing only on the most important information needed to make a decision. It reduces confusion and mental overload, allowing staff to respond to customers quickly and confidently | Create a physical or digital menu near the counter and along the outer part of where the queue will be. The menu should be composed of the items correctly categorized, its prices, and visual icons. Irrelevant details, such as ingredients, should be avoided as it would lead to longer decision-making. Therefore, students can make rapid choices before reaching the counter. |
+| Slow Manual Computation of Payment During Checkout | Algorithm Design: Algorithm Design helps prevent slow manual computation of payment during checkout by providing a clear, step-by-step process for calculating the total, discounts, and change. This makes computations faster and more accurate, reducing errors and shortening customer waiting time. | Build a sequential algorithm for a simple checkout interface for the cashiers. The algorithm is simply: Choose selected items -> Calculate sum of items -> Input cash received -> Calculate change (Cash - Sum) -> Display output -> Print Receipt |
+| Lack of Real-Time Tracking of Items | Pattern Recognition: Pattern Recognition helps address the lack of real-time tracking of items by identifying patterns in inventory movement, such as frequently sold or low-stock items. This allows staff to monitor item availability more efficiently and quickly recognize when stock needs to be updated or replenished | Track historical data to recognize patterns of which items sell out the fastest during the first half hour of the lunch period. Using these patterns, establish a digital notification to alarm staff to restock or take off a specific item in the menu. Additionally, establish an automated digital rule that if the stock level is less than 5 units, send an alert to kitchen staff to prepare more. |
+| Overcrowding and Poor Queue Management | Decomposition: Decomposition helps address overcrowding and poor queue management by breaking the problem into smaller parts, such as identifying customer flow, waiting areas, and service times. This makes it easier to find the cause of overcrowding and organize the queue more efficiently. | Break the large queues and overcrowding problem by: Making sure that there are at least three cashiers in every counter, ensuring that the queues will be broken down into shorter ones. Another three lanes for picking up the food and at least 2 staff are assigned to each lane. The menus are placed along the queues so students can pick while they are in line. The same menus can also be placed in another corner, big enough so that overcrowding won't occur.
 
 
 ## Step 4: Algorithmic Solution
@@ -128,7 +50,6 @@ LOOP
     IF item_name is empty THEN
         BREAK LOOP
     ENDIF
-
     Ask user for item_price
     Add item_price to total_sum
     Add (item_name, item_price) to items_list
