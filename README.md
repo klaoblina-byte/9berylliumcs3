@@ -1,6 +1,8 @@
 # COMPUTER SCIENCE 3 PORTFOLIO
 Good day sir! I'm *Karmela Liane A. Oblina* from **9 - Beryllium**.
 
+**Corporate Email:** *klaoblina@brc.pshs.edu.ph*
+
 ## [MAIN LINK](https://klaoblina-byte.github.io/9berylliumcs3/)
 
 ## QUARTER 1
