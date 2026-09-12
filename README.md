@@ -4,7 +4,7 @@ Good day sir! I'm *Karmela Liane A. Oblina* from **9 - Beryllium**.
 ## [MAIN LINK](https://klaoblina-byte.github.io/9berylliumcs3/)
 
 ## QUARTER 1
-### [IMAGES]()
+### [IMAGES](https://github.com/klaoblina-byte/9berylliumcs3/tree/main/q1/images)
 
 ### OUTPUTS
 [Computational Thinking Exercise](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/ctskillsBerylliumOBLINA.md)
