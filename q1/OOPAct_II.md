@@ -34,10 +34,10 @@ Changes from my previous design:
 
 ## Test Run
 
-[Test Run](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/imagesclassTestRun.png.png)
+[Test Run](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/images/imagesclassTestRun.png.png)
 
 ## Object Diagram
-[Object Diagram](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/MODIFIED%20DIAGRAM_Oblina%20(3).png)
+[Object Diagram](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/images/MODIFIED%20DIAGRAM_Oblina%20(3).png)
 
 ## Analysis
 
