@@ -7,7 +7,7 @@
 
 ## Step 1: Identify the Big Problem
 
-## Main Problem: 
+## Main Problem:
 
 The PSHS school canteen suffers a big problem from overcrowding, especially during lunch break, and slow service due to indecisive students, inefficient ordering, manual payment processing, and lack of real-time tracking of items.
 
