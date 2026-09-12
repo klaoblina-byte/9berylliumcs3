@@ -12,4 +12,4 @@ Good day sir! I'm *Karmela Liane A. Oblina* from **9 - Beryllium**.
 
 [OOPAct](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classObjectUML.md)
 
-[OOPAct II](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/OOPAct_II.md)
+[OOPAct II](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classAttributesMethods.md)
