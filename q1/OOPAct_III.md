@@ -45,20 +45,20 @@ Explanation: This multiplicity fits because one album can contain zero or more s
 
 ### What is the association between your two classes?
 
-The association between the ALBUM and SONGS classes is a structural containment relationship where an album acts as a collection container for individual track objects. Rather than operating in isolation, the two classes collaborate to model a real-world music catalog where the ALBUM class manages track listings, displays combined details, and computes aggregate metrics like overall runtime.
+The association between the ALBUM and SONGS classes is a containment relationship where an album acts as a container for track objects. Rather than operating in isolation, the two classes collaborate to model a real-world music catalog. The ALBUM class manages track listings, displays combined details, and computes the overall amount of minutes in a playlist, while the SONGS class manages the details of individual songs, such as title, artist, duration.
 
 ### What multiplicity did you choose and why?
 
-The multiplicity chosen for this relationship is 1 (ALBUM) to 0..* (SONGS) because a single album instance can hold zero or multiple song objects. This reflects practical logic: an album can exist as an empty container upon initialization before any tracks are assigned, or it can hold an arbitrary number of tracks as song instances are appended over time.
+The multiplicity chosen for this relationship is 1 (ALBUM) to 0..* (SONGS) because a single album can hold zero or multiple song objects. This relationship accurately mirrors how music is produced and organized in the real world. By defining the connection this way, it ensures structural integrity which allows the system to easily query all songs associated with a unique album and can easily simplify data.
 
 ### How did you implement the relationship in Python?
 
-In Python, this relationship was implemented by initializing a private list attribute, self.__SONGS_LIST, inside the ALBUM class constructor and defining an ADD_SONG(self, song: SONGS) method. Instead of passing plain string or integer data, the ADD_SONG method accepts an actual SONGS instance as an argument and appends its object reference directly into the list.
+In Python, this relationship was implemented by initializing a private list attribute, self.__SONGS_LIST, inside the ALBUM constructor. An ADD_SONG(self, song: SONGS) method was then created to establish the direct connection between objects. Instead of passing plain string or integer data, this method accepts an actual SONGS instance and appends its object reference into the list.
 
 ### Why did you store an object reference instead of copying its data?
 
-Storing actual object references instead of copying data fields ensures a single source of truth and preserves object behavior across the system. Any update to a SONGS object is immediately reflected when accessed through the ALBUM instance, and storing references allows the album to call methods directly on individual song objects while avoiding memory duplication.
+Storing actual object references instead of copying data fields maintains a single source of truth across the system. Any update to a SONGS object is immediately reflected when accessed through the ALBUM instance. Furthermore, referencing the full object preserves behavioral functionality, allowing the album to call methods directly on individual song objects while avoiding memory duplication.
 
 ### If your relationship uses many, why is a list appropriate?
 
-A Python list is the most appropriate structure for the "many" side because it inherently maintains insertion order, which is essential for preserving an album's sequential tracklist. Furthermore, lists scale dynamically as songs are added or removed, and they allow simple iteration using loops to execute operations across all tracks, such as summing total durations or printing track details.
+A Python list is the most appropriate structure for the "many" side because it inherently maintains insertion order, which is essential for preserving an album's sequential tracklist. Additionally, lists scale dynamically as songs are added or removed from the collection. They also enable simple iteration using loops to execute operations across all tracks, such as summing total durations or printing song details.
