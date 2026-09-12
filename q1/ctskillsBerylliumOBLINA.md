@@ -35,9 +35,9 @@ For each sub-problem, apply CT skills:
 
 ## Step 4: Algorithmic Solution
 
-##Selected Sub-Problem: Lack of Real-Time Tracking of Items
+## Selected Sub-Problem: Lack of Real-Time Tracking of Items
 
-##PSEUDOCODE
+## PSEUDOCODE
 
 START
 
@@ -71,9 +71,11 @@ Display "Payment Accepted"
 Display change
 
 Display receipt header
+
 FOR EACH item IN items_list
     Display item.name and item.price
 ENDFOR
+
 Display total_sum
 Display cash_received
 Display change
