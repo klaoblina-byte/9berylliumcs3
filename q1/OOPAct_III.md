@@ -7,6 +7,7 @@
 
 ## Existing Class
 Class: SONGS
+
 Description: The SONGS class represents an individual song in a music application. It stores important information about the song, such as its title, duration, artist, total listening time, and playlist. It also allows the user to perform actions such as playing, pausing, displaying song details, changing the playlist, and calculating listening time. 
 
 ### Which existing attributes and methods will still be useful when it interacts with another class?
@@ -14,6 +15,7 @@ The title, song_artist, duration, total_Listening_time, and playlistName attribu
 
 ## New Related Class
 Class: ALBUM
+
 Description: The ALBUM class represents a collection of songs released together by an artist. It can store information about the album and manage the songs included in it. The class can also perform actions such as adding or removing songs, displaying the songs in the album, and calculating the album's total duration.
 
 
