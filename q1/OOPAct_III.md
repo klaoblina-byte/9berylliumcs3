@@ -23,10 +23,12 @@ The SONGS and ALBUM classes should be connected because an album is made up of m
 
 ## Association
 Relationship: ALBUM contains SONGS
+
 Explanation: The ALBUM and SONGS classes are connected because an album contains multiple songs. The SONGS class represents individual songs, while the ALBUM class organizes those songs as a collection. This relationship allows the album to manage its songs, such as adding, removing, and displaying them.
 
 ## Multiplicity
 Multiplicity: One-to-Many ALBUM 1───────── 0..* SONGS
+
 Explanation: This multiplicity fits because one album can contain zero or more songs, depending on the songs added to it. The ALBUM class can store multiple SONGS objects in a Python list, allowing it to organize and manage the songs in the album.
 
 ## UML Class Relationship Diagram
