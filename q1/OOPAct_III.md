@@ -66,3 +66,6 @@ Storing actual object references instead of copying data fields maintains a sing
 ### If your relationship uses many, why is a list appropriate?
 
 A Python list is the most appropriate structure for the "many" side because it inherently maintains insertion order, which is essential for preserving an album's sequential tracklist. Additionally, lists scale dynamically as songs are added or removed from the collection. They also enable simple iteration using loops to execute operations across all tracks, such as summing total durations or printing song details.
+
+LLM used:
+-> Built-in Gemini feature when searching in Google
