@@ -37,7 +37,7 @@ Explanation: This multiplicity fits because one album can contain zero or more s
 [Class Relationship Diagram](./images/classRelationshipDiagram.png)
 
 ## Python Implementation
-[View Python Source]([classRelationships.py](./classRelationships.py))
+[View Python Source]([classRelationships.py](./q1/classRelationships.py))
 
 ## Test Run
 [Relationship Test Run](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/images/relationshipTestRun.png)
