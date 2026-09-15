@@ -34,10 +34,10 @@ Multiplicity: One-to-Many ALBUM 1───────── 0..* SONGS
 Explanation: This multiplicity fits because one album can contain zero or more songs, depending on the songs added to it. The ALBUM class can store multiple SONGS objects in a Python list, allowing it to organize and manage the songs in the album.
 
 ## UML Class Relationship Diagram
-[Class Relationship Diagram](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/images/classRelationshipDiagram.png)
+[Class Relationship Diagram](./images/classRelationshipDiagram.png)
 
 ## Python Implementation
-[View Python Source]([classRelationships.py](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/classRelationships.py))
+[View Python Source]([classRelationships.py](./classRelationships.py))
 
 ## Test Run
 [Relationship Test Run](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/images/relationshipTestRun.png)
