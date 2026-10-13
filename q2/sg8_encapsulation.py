@@ -13,7 +13,7 @@ class BankAccount:
         if balance < 0:
             print("Warning: Balance cannot be negative.")
             return
-        self.__balance = balance
+        self.__balance = balance  # Keep the balance unchanged if the new value is negative
 
     @property
     def get_account_number(self):  # Getter method for account number
@@ -59,6 +59,8 @@ account2.set_balance(1234.56)
 print()
 print(f"Account Number: {account2.get_account_number}")
 print(f"Balance: ₱{account2.get_balance():.2f}")
+
+print()
 
 print("OUTPUT 2: ")
 
