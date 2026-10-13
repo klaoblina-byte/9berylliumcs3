@@ -48,7 +48,7 @@ Explanation: A Composition relationship exists because a LIVE_TRACK creates a VE
 [Test](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/images/advancedTestRun.png)
 
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+![Objects](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/images/advancedObjectDiagram.png)
 
 ## Reflection
 
