@@ -24,12 +24,14 @@ Good day sir! I'm *Karmela Liane A. Oblina* from **9 - Beryllium**.
 [OOPAct IV](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/advancedRelationships.md)
 
 ## QUARTER 2
-### [IMAGES]
+### [IMAGES](https://github.com/klaoblina-byte/9berylliumcs3/tree/main/q2/images_q2)
 
 ### OUTPUTS
 
 ### ENCAPSULATION
 [sg8_encapsulation.py](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q2/sg8_encapsulation.py)
+[Output](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q2/images_q2/encapsulation_docu/output)
 
 ### INHERITANCE
 [sg9_inheritance.py](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q2/sg9_inheritance.py)
+[Output](https://github.com/klaoblina-byte/9berylliumcs3/tree/main/q2/images_q2/inheritance_docu)
