@@ -22,3 +22,8 @@ Good day sir! I'm *Karmela Liane A. Oblina* from **9 - Beryllium**.
 [OOPAct III](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/OOPAct_III.md)
 
 [OOPAct IV](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q1/advancedRelationships.md)
+
+## QUARTER 2
+
+### OUTPUTS
+[sg8_encapsulation.py](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q2/sg8_encapsulation.py)
