@@ -42,3 +42,8 @@ Good day sir! I'm *Karmela Liane A. Oblina* from **9 - Beryllium**.
 [sg10_method-overriding.py](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q2/sg10_method-overriding.py)
 
 [Output](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q2/images_q2/method-overriding_docu/output.png)
+
+### POLYMORPHISM
+[sg11_activity1_polymorphism](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q2/sg_11_activity1_polymorphism.py)
+
+[Output]()
