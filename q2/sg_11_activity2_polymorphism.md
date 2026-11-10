@@ -19,5 +19,4 @@ The Car class needed to have the same method name as the Dog and Cat classes in 
 
 ### 2. How does the code in 2.2 demonstrate polymorphism?
 
-The code in 2.2 demonstrates polymorphism
-
+The code in 2.2 demonstrates a type of polymorphism called duck typing. Each class there involve classes that are independent from each other. The core of this code is the start_trip(vehicle) function, showing that it doesn't care what specific class type they are, but rather if it possesses the move() function. If a class does not possess the function move(), the code will run fine until it tries to call the missing method in a class. 
