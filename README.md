@@ -46,4 +46,4 @@ Good day sir! I'm *Karmela Liane A. Oblina* from **9 - Beryllium**.
 ### POLYMORPHISM
 [sg11_activity1_polymorphism](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q2/sg_11_activity1_polymorphism.py)
 
-[Output]()
+[Output](https://github.com/klaoblina-byte/9berylliumcs3/blob/main/q2/images_q2/Polymporphism/Activity%201/activity1.png)
